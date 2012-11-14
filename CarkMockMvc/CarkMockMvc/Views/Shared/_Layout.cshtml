@@ -12,6 +12,17 @@
         <a href="@Url.Action("Index", "Home")" title="Sachs Mock Cart">
             <img src="http://www.somethingdigital.com/wp-content/themes/default/images/logo_top.png" />
         </a>
+
+        <h2>@ViewBag.Title</h2>
+
+<span>@Html.ActionLink("View Cart", "Index")</span>
+
+<span>@Html.ActionLink("Send Messages", "SendMessages")</span>
+
+<span>@Html.ActionLink("Configure Messages", "Configuration")</span>
+
+<span>@Html.ActionLink("Reset Cart", "ResetCart")</span>
+
     </header>
     @RenderBody()
 </body>
