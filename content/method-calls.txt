@@ -1,0 +1,201 @@
+-----------------------------------------------------------------------
+# saksSendEmailAddress
+$post_string ='bmForm=login_as_guest_user&LOGIN<>userid='.$email.'&';
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# saksSaveShippingMethod
+$post_string ='bmForm=update_cart_summary_service&zipCode='.$zipCode.'&selectedMethodId='.$serviceID;
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# saksSavePaymentMethod
+$post_string ='bmForm=submit_payment_service&CREDIT_CARD<>cardBrand_cd='.$cardType.'&CREDIT_CARD<>cardNum='.$cardNumber.'&CREDIT_CARD<>cardholderName='.$holderName.'&CREDIT_CARD<>cardMonth_cd='.$expMonth.'&CREDIT_CARD<>cardYear_cd='.$expYear.'&card_cvNumber='.$csv.'&ACCOUNT<>accountNumber=&ACCOUNT<>notificationEmail=&promoCode=&USER_ACCOUNT<>password=&USER_ACCOUNT<>confirmPassword=&USER_ACCOUNT<>ATR_passwordHint=&';
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# saksGetQuote
+$post_string ='bmForm=update_cart_summary_service&zipCode='.$zipCode.'&selectedMethodId='.$selectedMethod;
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# addItemToSaksCart
+$post_string ='bmForm=add_saks_suggests_item_service&itemQuantity='.$qty.'&sku_id='.$sku_id.'&productCode='.$productCode.'&website='.$website.'';
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# saksSaveBillingAddress
+$post_string ='bmForm=save_billing_address_service&BILL_TO_ADDRESS<>uad_id=&BILL_TO_ADDRESS<>indGift='.$title.'&BILL_TO_ADDRESS<>firstName='.$fName.'&BILL_TO_ADDRESS<>middleName='.$mName.'&BILL_TO_ADDRESS<>lastName='.$lName.'&BILL_TO_ADDRESS<>address3='.$address3.'&BILL_TO_ADDRESS<>address1='.$address1.'&BILL_TO_ADDRESS<>address2='.$address2.'&BILL_TO_ADDRESS<>city='.$city.'&BILL_TO_ADDRESS<>state_cd='.$state.'&BILL_TO_ADDRESS<>stateName=&BILL_TO_ADDRESS<>postal='.$zip.'&BILL_TO_ADDRESS<>country_cd=US&BILL_TO_ADDRESS<>phone='.$phone.'&BILL_TO_ADDRESS<>indDefaultBillTo=false&setAsShipAddress=false&';
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# saksSaveShippingAddress
+$post_string ='bmForm=add_address_and_continue_service&shiptomult=false&SHIP_TO_ADDRESS<>uad_id=&SHIP_TO_ADDRESS<>indGift='.$title.'&SHIP_TO_ADDRESS<>firstName='.$fName.'&SHIP_TO_ADDRESS<>middleName='.$mName.'&SHIP_TO_ADDRESS<>lastName='.$lName.'&SHIP_TO_ADDRESS<>address3='.$address3.'&SHIP_TO_ADDRESS<>address1='.$address1.'&SHIP_TO_ADDRESS<>address2=&SHIP_TO_ADDRESS<>city='.$city.'&SHIP_TO_ADDRESS<>state_cd='.$state.'&SHIP_TO_ADDRESS<>postal='.$zip.'&SHIP_TO_ADDRESS<>phone='.$phone.'&setAsBillAddress=false&count=2&';
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# saksSubmitOrder
+$post_string ='bmForm=submit_order_service&order_source=HBZ';
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+# updatePostAction
+$post_string ='bmForm=submit_order_service&order_source=HBZ';
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+{
+    "breadcrumbs": [
+        {
+            "url": "http://www.qa.saks.com/Entry.jsp?bmUID=jHCGZgj",
+            "displayName": "Home Page"
+        }
+    ],
+    "cartId": "12668573099555763",
+    "cartItems": [
+        {
+            "SFLEligible": true,
+            "UPCId": "1689949377843937",
+            "backOrdered": false,
+            "cartItemId": "15000565",
+            "color": "BLACK",
+            "departmentId": 785,
+            "dropShip": false,
+            "extendedPrice": " &#36;850.00",
+            "fashionFixTimer": -1,
+            "giftWrappable": true,
+            "giftingId": "",
+            "giftingImagePath": "https://image.s5a.com/is/image/saks/0478587927377_60x80.jpg",
+            "groupId": 25,
+            "inventoryStatus": "In Stock",
+            "personalization": null,
+            "productCode": "0478587927377",
+            "productDetailUrl": "http://www.qa.saks.com/main/ProductDetail.jsp?PRODUCT%3C%3Eprd_id=845524446514894&FOLDER%3C%3Efolder_id=282574492821740&bmUID=jHCGZgk&productID=0478587927377",
+            "productImagePath": "https://image.s5a.com/is/image/saks/0478587927377_75x100.jpg",
+            "productImagesList": [
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_60x80.jpg",
+                    "imageSize": "60x80"
+                },
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_75x100.jpg",
+                    "imageSize": "75x100"
+                },
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_102x136.jpg",
+                    "imageSize": "102x136"
+                },
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_180x240.jpg",
+                    "imageSize": "180x240"
+                },
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_222x296.jpg",
+                    "imageSize": "222x296"
+                },
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_276x368.jpg",
+                    "imageSize": "276x368"
+                },
+                {
+                    "imagePath": "https://image.s5a.com/is/image/saks/0478587927377_300x400.jpg",
+                    "imageSize": "300x400"
+                }
+            ],
+            "productName": "3.1 Phillip Lim",
+            "productNameNoHTMLTag": "3.1 Phillip Lim",
+            "quantity": 1,
+            "shortDescription": "Integrated Jacket",
+            "size": "2",
+            "skuCode": "883965670958",
+            "storeFulfillMessaging": "",
+            "unitPrice": " &#36;850.00",
+            "vgcInfo": null,
+            "warningMessages": []
+        }
+    ],
+    "cartSummary": {
+        "giftWrapTotal": " &#36;0.00",
+        "grandTotal": " &#36;870.00",
+        "itemsTotal": " &#36;850.00",
+        "shippingCost": " &#36;20.00",
+        "tax": " &#36;0.00",
+        "totalBeforeTax": " &#36;870.00"
+    },
+    "csrName": "",
+    "currentZipCode": "",
+    "giftings": [],
+    "hasVGCOnly": false,
+    "internationalOrder": false,
+    "maxNumberOfPromos": 5,
+    "maxSaveForLaterItems": 100,
+    "memberType": "Customer",
+    "messages": [],
+    "paypalDisplayButtonStatus": true,
+    "promoCodes": [],
+    "saveForLaterItems": [],
+    "saveForLaterNumberOfItems": 0,
+    "selectedShippingMethodId": "",
+    "sessionId": "hhtdQdkdXYtKNG33F1QM7y2r14L3fXTxyWBVyXYgg5dCmWMl68LD!-867558056!1352492157803",
+    "shippingMethods": [
+        {
+            "desc": "Standard",
+            "estDeliveryDate": "N/A",
+            "id": "7037973930820217",
+            "messages": [],
+            "name": "1",
+            "shipCost": " &#36;20.00"
+        },
+        {
+            "desc": "Rush",
+            "estDeliveryDate": "N/A",
+            "id": "7037973930820219",
+            "messages": [],
+            "name": "2",
+            "shipCost": " &#36;27.50"
+        },
+        {
+            "desc": "Next Bus. Day",
+            "estDeliveryDate": "N/A",
+            "id": "7037973933227467",
+            "messages": [],
+            "name": "3",
+            "shipCost": " &#36;35.00"
+        },
+        {
+            "desc": "Saturday",
+            "estDeliveryDate": "N/A",
+            "id": "7037973933758655",
+            "messages": [],
+            "name": "6",
+            "shipCost": " &#36;45.00"
+        }
+    ],
+    "updatedCart": false,
+    "user": {
+        "billingAddressList": [],
+        "creditCardList": [],
+        "defaultBillingAddressId": "",
+        "defaultCreditCardId": "",
+        "defaultShippingAddressId": "",
+        "defaultShippingMethodId": "",
+        "email": "",
+        "firstName": "",
+        "guestUser": true,
+        "hasPayPalBillingAgreement": false,
+        "hasPayPalTokenId": false,
+        "hasToBeRedirectedToPayPal": true,
+        "lastName": "",
+        "passwordHint": "",
+        "shippingAddressList": [],
+        "userAccountId": 2253998903321797
+    }
+}
